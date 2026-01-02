@@ -29,7 +29,7 @@ def compile_c(source_path: str, output_path: str) -> dict:
     )
 
     return {
-        "success": result.returncode = 0,
+        "success": result.returncode == 0,
         "stdout": result.stdout,
         "stderr": result.stderr
     }
