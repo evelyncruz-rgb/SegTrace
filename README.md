@@ -34,5 +34,6 @@ traces rather than speculation.
 
 ## Status
 In Progress...
+
 Core backend pipeline (compile → run → debug → analyze → explain) is implemented.
 Frontend and explanation quality are actively being refined.
